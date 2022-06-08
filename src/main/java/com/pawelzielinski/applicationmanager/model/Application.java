@@ -62,4 +62,10 @@ public class Application {
     public int hashCode() {
         return getClass().hashCode();
     }
+
+    @Override
+    public String toString(){
+        return "name: " + name + " textContent: " + textContent + " state: " + state +
+                " reasonOfDelRej: " +reasonOfDelRej + " publishedToken: " +publishedToken;
+    }
 }
